@@ -62,10 +62,10 @@ export default function Internationalparticipants() {
   return (
     <>
       <section className="registration-section">
-        <div class="container">
-          <div class="content">
-            <div class="sub">FORMULIR PENDAFTARAN</div>
-            <h1 class="garis-bawah"></h1>
+        <div className="container">
+          <div className="content">
+            <div className="sub">FORMULIR PENDAFTARAN</div>
+            <h1 className="garis-bawah"></h1>
             <br />
             <br />
             <h4>
@@ -118,15 +118,15 @@ export default function Internationalparticipants() {
                     readOnly
                   />
                 </div>
-                <div class="input-box">
-                  <label for="CATEGORY_COMPETITION" class="form-label">
+                <div className="input-box">
+                  <label for="CATEGORY_COMPETITION" className="form-label">
                     Kategori Kompetisi
                   </label>
                   <select
                     type="text"
                     id="CATEGORY_COMPETITION"
                     name="CATEGORY_COMPETITION"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Choose Category Competition "
                     required
                   >
@@ -196,8 +196,8 @@ export default function Internationalparticipants() {
                     required
                   />
                 </div>
-                <div class="input-box">
-                  <label for="LEADER_EMAIL" class="form-label">
+                <div className="input-box">
+                  <label for="LEADER_EMAIL" className="form-label">
                     Alamat Email Ketua Tim
                   </label>
                   <label>
@@ -211,7 +211,7 @@ export default function Internationalparticipants() {
                     type="email"
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Input Your Leader Email Address"
                     required
                   />
@@ -335,15 +335,15 @@ export default function Internationalparticipants() {
               <h1>DATA PEMBIMBING</h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
-                <div class="input-box">
-                  <label for="NAME_SUPERVISOR" class="form-label">
+                <div className="input-box">
+                  <label for="NAME_SUPERVISOR" className="form-label">
                     Nama Guru/Pembimbing
                   </label>
                   <textarea
                     type="text"
                     id="NAME_SUPERVISOR"
                     name="NAME_SUPERVISOR"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Masukan Nama Guru/Pembimbing"
                     required
                   ></textarea>
