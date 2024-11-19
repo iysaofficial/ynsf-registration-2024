@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import { indonesiaTerms } from "./data/terms";
+import { indonesiaTerms } from "../data/terms";
 
 export default function Home() {
 
