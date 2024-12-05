@@ -41,7 +41,7 @@ export default function Internationalparticipants() {
               body: new FormData(form),
             });
             // Setelah berhasil mengirim data, arahkan pengguna ke halaman lain
-            window.location.href = "/homeregist"; // Gantikan dengan URL halaman sukses Anda
+            window.location.href = "/"; // Gantikan dengan URL halaman sukses Anda
           } catch (error) {
             console.error("Error saat mengirim data:", error);
             // Handle error jika diperlukan
